@@ -1,0 +1,13 @@
+class Toy:
+def init(self, name, price):
+self.name = name
+self.price = price
+
+def describeToy(self):
+    print(f"{self.name} is {self.price} pesos.")
+class Car(Toy):
+def init(self, name, price):
+super().init(name, price)
+
+lamborghini = Car("Lamborghini", 1200)
+lamborghini.describeToy()
