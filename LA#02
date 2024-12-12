@@ -1,0 +1,12 @@
+class mobaylhero():
+def init(self, name, role):
+self.name = name
+self.role = role
+
+support = mobaylhero("Angela", "Support")
+support = mobaylhero("Saber", "assassin")
+
+print(support.name)
+print(support.role)
+print(assassin.name)
+print(assassin.role)
