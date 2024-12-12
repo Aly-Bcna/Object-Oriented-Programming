@@ -1,0 +1,12 @@
+class mobaylhero():
+def init(self, name, role):
+self.name = name
+self.role = role
+
+def describe(self):
+    print(f"{self.name} is a/an {self.role} hero.")
+support = mobaylhero("Angela", "support")
+marksman = mobaylhero("Miya", "Marksman:)
+
+support.describe()
+marksman.describe()
