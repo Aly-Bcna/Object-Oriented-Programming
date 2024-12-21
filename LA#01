@@ -1,5 +1,5 @@
-class mobaylhero():
+class mlhero():
 name = "Angela"
 
-fighter = mobaylhero()
+fighter = mlhero()
 print(fighter.name)
